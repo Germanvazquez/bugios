@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-between",
     paddingTop: 15,
-    paddingBottom: 10,
+    marginBottom: 40,
   },
   title: {
     color: theme.colors.text_label,
