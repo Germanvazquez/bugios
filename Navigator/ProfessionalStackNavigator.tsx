@@ -14,7 +14,7 @@ const animationStyle =
 export const ProfessionalStackNavigator = () => {
   return (
     <Stack.Navigator
-      screenOptions={{ animation: animationStyle }}
+      screenOptions={{ headerTransparent: true, animation: animationStyle }}
       initialRouteName={ScreenEnum.ProfessionalPost}
     >
       <Stack.Screen
