@@ -5,7 +5,6 @@ import { ScreenEnum } from "../enums/ScreenEnum";
 import { theme } from "../styles/theme";
 
 const ProfessionalView = () => {
-  console.log("ProfessionalView");
   const navigate = useNavigation<any>();
   return (
     <View
