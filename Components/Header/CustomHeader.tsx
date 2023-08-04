@@ -42,6 +42,7 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
     paddingTop: 15,
     marginBottom: 40,
+    backgroundColor: theme.background.white,
   },
   title: {
     color: theme.colors.text_label,
